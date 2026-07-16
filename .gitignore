@@ -2,3 +2,4 @@
 .vercel
 .gmb-src/
 node_modules/
+.env*

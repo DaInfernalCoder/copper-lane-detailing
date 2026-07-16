@@ -47,27 +47,67 @@ Build and launch a polished, phone-first mobile auto detailing website and Googl
 - [x] Register the domain with high privacy and auto-renew off.
 - [x] Verify asynchronous registration success and `autoRenew: false`.
 - [x] Confirm the business phone number.
-- [ ] Define the Copper Lane design direction.
-- [ ] Source licensed local imagery and record sources.
-- [ ] Build the static website.
-- [ ] Run preflight and browser QA at desktop and phone widths, including header contrast.
-- [ ] Initialize git, commit, create GitHub repository, and push `main`.
-- [ ] Deploy through Vercel and connect the GitHub repository.
-- [ ] Attach apex and `www` and delegate DNS to Vercel.
+- [x] Define the Copper Lane design direction.
+- [x] Source licensed local imagery and record sources.
+- [x] Build the static website.
+- [x] Run preflight and browser QA at desktop and phone widths, including header contrast.
+- [x] Initialize git, commit, create GitHub repository, and push `main`.
+- [x] Deploy through Vercel and connect the GitHub repository.
+- [x] Attach apex and `www` and delegate DNS to Vercel.
 - [ ] Verify authoritative DNS, HTTPS, production content, and call/booking links.
-- [ ] Write the GMB description and build/validate the final image pack.
+- [x] Write the GMB description and build/validate the final image pack.
 
 ## Current state
 
-Domain registered and verified. Project folder created. Design direction and build not started.
+Site is built, QA'd, committed, and live on Vercel production (`READY`).
+
+- Repository: https://github.com/DaInfernalCoder/copper-lane-detailing (public, `main`)
+- Vercel project: `copper-lane-detailing` (prj_GBDOX4Jhc3Rt7VIw84imHg3wYFpZ), GitHub-connected
+- Apex and `www` are both assigned to the project (`domain_already_assigned` confirmed)
+- Spaceship nameservers set to `ns1.vercel-dns.com` / `ns2.vercel-dns.com` via the Spaceship
+  API (`PUT /domains/{domain}/nameservers`); Spaceship's own record confirms `provider: custom`
+  with those two hosts. No browser automation was needed.
+- Public resolvers and the `.shop` registry had not yet published the new nameservers as of
+  2026-07-16. This is propagation, not a failed change (Spaceship documents up to 48 hours).
+- GMB pack validated and installed at
+  `/Users/sumit/Documents/gmb/Copper Lane Mobile Auto Detailing Houston Texas`
+  (1 logo 1200x1200, 4 covers 1920x1080 16:9, 4 business photos, DESCRIPTION.txt 641/750 chars
+  with the service keyword in all 5 sentences, SOURCES.txt).
+
+### Design record
+
+Warm copper (`#b5642f`) to verdigris (`#2f7a68`) palette on cream (`#f7f1e8`) and warm ink
+(`#17120e`), Fraunces display over Public Sans body, DM Mono for markers. Signature element is
+the dashed copper "lane stripe" rule between sections, echoed in the logo mark. Deliberately
+unlike Glass Harbor's teal/cyan/coral grotesque treatment.
+
+### Bugs found and fixed during QA (do not regress)
+
+1. The generic `section { padding-block }` rule applied to `.hero`, exposing a black band of
+   the ink background between the header and the hero image. `.hero` now sets `padding-block: 0`.
+2. The hero's "Book online" button used `.btn-outline` (ink text, dark border) on the dark hero,
+   rendering it invisible at every viewport. It now uses `.btn-outline-cream`. Every cal.com link
+   was then re-checked programmatically against its real computed background.
+3. The footer logo was near-black on the dark footer: `logo.svg` used `fill="currentColor"`, but
+   an SVG loaded through `<img>` cannot inherit page `color`, so `color: var(--cream)` did nothing.
+   Fixed with a separate `assets/logo-cream.svg`; both logo SVGs now bake their colors in.
 
 ## Blocker
 
-None.
+None. Only DNS propagation is outstanding, which is a wait and not an action.
 
 ## Exact next action
 
-Define the Copper Lane design direction (palette, type pairing, layout thesis, signature patina element), then source licensed imagery into `assets/`.
+Poll authoritative DNS until `ns1.vercel-dns.com` / `ns2.vercel-dns.com` are public for
+`copperlanedetailing.shop`. Then run:
+
+```bash
+python3 ~/.claude/skills/make-gmb/scripts/check_live.py copperlanedetailing.shop "Copper Lane"
+python3 ~/.claude/skills/make-gmb/scripts/check_live.py www.copperlanedetailing.shop "Copper Lane"
+```
+
+Confirm HTTPS, the brand text, `tel:+13466439249`, and the cal.com booking links through the real
+custom domain.
 
 ## Related
 
