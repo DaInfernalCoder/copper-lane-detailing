@@ -9,6 +9,7 @@ Build and launch a polished, phone-first mobile auto detailing website and Googl
 - Canonical name: Copper Lane Mobile Auto Detailing Houston Texas
 - Business type: mobile auto detailing
 - Primary market: Houston, Texas
+- Street address: 2409 Maconda Ln, Houston, TX 77027
 - Phone: +1 346-643-9249 (Houston 346 area code)
 - Primary conversion: phone calls; booking link is the required secondary path
 - Booking link: https://cal.com/sumitdatta/auto-detail-service
