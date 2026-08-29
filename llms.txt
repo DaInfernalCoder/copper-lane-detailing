@@ -14,3 +14,14 @@
 - Service: Appointment-based mobile car detailing
 - Booking: https://cal.com/sumitdatta/auto-detail-service
 - Google review profile: https://g.page/r/CaLRT_QpJ7yYEBM/review
+
+<!-- SEO-NEXT:START -->
+## Expanded pages
+- [Services](https://copperlanedetailing.shop/services/)
+- [Interior Car Detailing](https://copperlanedetailing.shop/services/interior-car-detailing/)
+- [Exterior Car Detailing](https://copperlanedetailing.shop/services/exterior-car-detailing/)
+- [Mobile Car Wash](https://copperlanedetailing.shop/services/mobile-car-wash/)
+- [Headlight Restoration & Polishing](https://copperlanedetailing.shop/services/headlight-restoration/)
+- [About](https://copperlanedetailing.shop/about/)
+- [Contact](https://copperlanedetailing.shop/contact/)
+<!-- SEO-NEXT:END -->
