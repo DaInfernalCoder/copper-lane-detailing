@@ -3,9 +3,9 @@
 > Appointment-based mobile car detailing in Houston, Texas.
 
 ## Primary pages
-- [Homepage](https://copperlanedetailing.shop/): Business, service, pricing, process, and contact information.
-- [Services](https://copperlanedetailing.shop/#services): Interior, exterior, and complete vehicle detailing options.
-- [Local service information](https://copperlanedetailing.shop/#local-detailing): How mobile detailing works in Houston.
+- [Homepage](https://houstoncardetailingexterior.shop/): Business, service, pricing, process, and contact information.
+- [Services](https://houstoncardetailingexterior.shop/#services): Interior, exterior, and complete vehicle detailing options.
+- [Local service information](https://houstoncardetailingexterior.shop/#local-detailing): How mobile detailing works in Houston.
 
 ## Verified business facts
 - Business name: Copper Lane Mobile Car Detailing Houston
@@ -17,11 +17,11 @@
 
 <!-- SEO-NEXT:START -->
 ## Expanded pages
-- [Services](https://copperlanedetailing.shop/services/)
-- [Interior Car Detailing](https://copperlanedetailing.shop/services/interior-car-detailing/)
-- [Exterior Car Detailing](https://copperlanedetailing.shop/services/exterior-car-detailing/)
-- [Mobile Car Wash](https://copperlanedetailing.shop/services/mobile-car-wash/)
-- [Headlight Restoration & Polishing](https://copperlanedetailing.shop/services/headlight-restoration/)
-- [About](https://copperlanedetailing.shop/about/)
-- [Contact](https://copperlanedetailing.shop/contact/)
+- [Services](https://houstoncardetailingexterior.shop/services/)
+- [Interior Car Detailing](https://houstoncardetailingexterior.shop/services/interior-car-detailing/)
+- [Exterior Car Detailing](https://houstoncardetailingexterior.shop/services/exterior-car-detailing/)
+- [Mobile Car Wash](https://houstoncardetailingexterior.shop/services/mobile-car-wash/)
+- [Headlight Restoration & Polishing](https://houstoncardetailingexterior.shop/services/headlight-restoration/)
+- [About](https://houstoncardetailingexterior.shop/about/)
+- [Contact](https://houstoncardetailingexterior.shop/contact/)
 <!-- SEO-NEXT:END -->

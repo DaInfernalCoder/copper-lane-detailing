@@ -3,7 +3,7 @@
 Static marketing site for Copper Lane Mobile Auto Detailing, a mobile auto detailing service in
 Houston, Texas.
 
-- Live: https://copperlanedetailing.shop/
+- Live: https://houstoncardetailingexterior.shop/
 - Stack: dependency-free HTML, CSS, and JavaScript. No build step.
 - Phone: 346-643-9249. Booking: https://cal.com/sumitdatta/auto-detail-service
 

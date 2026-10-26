@@ -13,7 +13,7 @@ Build and launch a polished, phone-first mobile auto detailing website and Googl
 - Phone: +1 346-643-9249 (Houston 346 area code)
 - Primary conversion: phone calls; booking link is the required secondary path
 - Booking link: https://cal.com/sumitdatta/auto-detail-service
-- Domain: `copperlanedetailing.shop`
+- Domain: `houstoncardetailingexterior.shop`
 - Domain status: registered 2026-07-16, expires 2027-07-16, `lifecycleStatus: registered`
 - Registration settings: one year, high privacy with consent, `autoRenew: false` (verified on the live record)
 - Spaceship credentials: macOS Keychain only; never copied into this file or the repository
@@ -32,7 +32,7 @@ Build and launch a polished, phone-first mobile auto detailing website and Googl
 
 ## Acceptance criteria
 
-- `copperlanedetailing.shop` registered with high privacy and auto-renew off.
+- `houstoncardetailingexterior.shop` registered with high privacy and auto-renew off.
 - Permanent repository at `/Users/sumit/Documents/websites & apps/copper-lane-detailing`.
 - Responsive, accessible, honest site using +1 346-643-9249 everywhere, with both booking paths on every CTA cluster.
 - Preflight and desktop/mobile browser checks pass: no broken assets, console errors, overflow, or unreadable header.
@@ -43,7 +43,7 @@ Build and launch a polished, phone-first mobile auto detailing website and Googl
 ## Task list
 
 - [x] Screen the Copper Lane name for local and same-category conflicts.
-- [x] Confirm `copperlanedetailing.shop` available and non-premium.
+- [x] Confirm `houstoncardetailingexterior.shop` available and non-premium.
 - [x] Obtain explicit purchase approval from Sumit.
 - [x] Register the domain with high privacy and auto-renew off.
 - [x] Verify asynchronous registration success and `autoRenew: false`.
@@ -100,11 +100,11 @@ None. Only DNS propagation is outstanding, which is a wait and not an action.
 ## Exact next action
 
 Poll authoritative DNS until `ns1.vercel-dns.com` / `ns2.vercel-dns.com` are public for
-`copperlanedetailing.shop`. Then run:
+`houstoncardetailingexterior.shop`. Then run:
 
 ```bash
-python3 ~/.claude/skills/make-gmb/scripts/check_live.py copperlanedetailing.shop "Copper Lane"
-python3 ~/.claude/skills/make-gmb/scripts/check_live.py www.copperlanedetailing.shop "Copper Lane"
+python3 ~/.claude/skills/make-gmb/scripts/check_live.py houstoncardetailingexterior.shop "Copper Lane"
+python3 ~/.claude/skills/make-gmb/scripts/check_live.py www.houstoncardetailingexterior.shop "Copper Lane"
 ```
 
 Confirm HTTPS, the brand text, `tel:+13466439249`, and the cal.com booking links through the real
