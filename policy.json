@@ -1,0 +1,60 @@
+{
+  "config": {},
+  "domains": [
+    {
+      "name": "www.houstoncardetailingexterior.shop",
+      "apexName": "houstoncardetailingexterior.shop",
+      "redirect": "houstoncardetailingexterior.shop",
+      "redirectStatusCode": 308,
+      "verified": true
+    },
+    {
+      "name": "houstoncardetailingexterior.shop",
+      "apexName": "houstoncardetailingexterior.shop",
+      "redirect": null,
+      "redirectStatusCode": null,
+      "verified": true
+    },
+    {
+      "name": "www.copperlanedetailing.shop",
+      "apexName": "copperlanedetailing.shop",
+      "redirect": "houstoncardetailingexterior.shop",
+      "redirectStatusCode": 308,
+      "verified": true
+    },
+    {
+      "name": "copperlanedetailing.shop",
+      "apexName": "copperlanedetailing.shop",
+      "redirect": "houstoncardetailingexterior.shop",
+      "redirectStatusCode": 308,
+      "verified": true
+    }
+  ],
+  "files": [
+    "/about/index.html",
+    "/assets/detail-chrome.jpg",
+    "/assets/detail-interior.jpg",
+    "/assets/detail-wheel.jpg",
+    "/assets/favicon.svg",
+    "/assets/hero-finish.jpg",
+    "/assets/logo-cream.svg",
+    "/assets/logo.svg",
+    "/assets/service-polish.jpg",
+    "/assets/service-seat.jpg",
+    "/contact/index.html",
+    "/index.html",
+    "/llms.txt",
+    "/portfolio-components.css",
+    "/portfolio-components.js",
+    "/robots.txt",
+    "/script.js",
+    "/seo-pages.css",
+    "/services/exterior-car-detailing/index.html",
+    "/services/headlight-restoration/index.html",
+    "/services/index.html",
+    "/services/interior-car-detailing/index.html",
+    "/services/mobile-car-wash/index.html",
+    "/sitemap.xml",
+    "/styles.css"
+  ]
+}
