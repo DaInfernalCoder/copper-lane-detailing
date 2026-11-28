@@ -12,7 +12,7 @@ Build and launch a polished, phone-first mobile auto detailing website and Googl
 - Street address: 2409 Maconda Ln, Houston, TX 77027
 - Phone: +1 346-643-9249 (Houston 346 area code)
 - Primary conversion: phone calls; booking link is the required secondary path
-- Booking link: https://cal.com/sumitdatta/auto-detail-service
+- Booking link: https://houstoncardetailingexterior.shop/scheduling
 - Domain: `houstoncardetailingexterior.shop`
 - Domain status: registered 2026-07-16, expires 2027-07-16, `lifecycleStatus: registered`
 - Registration settings: one year, high privacy with consent, `autoRenew: false` (verified on the live record)

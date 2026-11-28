@@ -5,7 +5,7 @@ Houston, Texas.
 
 - Live: https://houstoncardetailingexterior.shop/
 - Stack: dependency-free HTML, CSS, and JavaScript. No build step.
-- Phone: 346-643-9249. Booking: https://cal.com/sumitdatta/auto-detail-service
+- Phone: 346-643-9249. Booking: https://houstoncardetailingexterior.shop/scheduling
 
 The business is phone-first, so calling is the primary call to action and online booking is the
 secondary path. There is no lead form and no email route on the site.
